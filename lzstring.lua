@@ -143,11 +143,6 @@ function _M.decompressFromEncodedURIComponent(inputStr)
     return _decompress(inputStr, 32, defunc_URI)
 end
 
-function defunc(inputStr, i)
-  return string.char(string.byte(inputStr, index + 1))
-end
-
-
 function _M.compress(input)
   if not input or input == '' then
       return ''
