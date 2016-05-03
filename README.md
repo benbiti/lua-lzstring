@@ -10,3 +10,5 @@ https://github.com/starwing/luautf8
 
 https://github.com/LuaDist/luabitop
 
+# lzstring53
+lzstring in lua support lua5.3
